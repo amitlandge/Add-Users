@@ -1,0 +1,20 @@
+.listItem {
+  display: flex;
+  width: 70%;
+  margin: 3% auto;
+  /* border: 2px solid black; */
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2% 4%;
+  border-radius: 5px;
+  background-color: rgb(20, 111, 141);
+  color: aliceblue;
+  box-shadow: 2px 3px 4px rgb(7, 59, 77);
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.listItem strong {
+  color: black;
+}

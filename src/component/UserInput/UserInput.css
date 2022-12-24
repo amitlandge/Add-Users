@@ -1,0 +1,63 @@
+.form__input {
+  width: 70%;
+  margin: 5% auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2% 0%;
+  border-radius: 5px;
+  background-color: rgb(20, 111, 141);
+  color: aliceblue;
+  box-shadow: 2px 3px 4px rgb(7, 59, 77);
+}
+.addUserName label {
+  font-size: 2.5vmin;
+  letter-spacing: 1px;
+  margin: 10px 28px;
+}
+.addUserName input {
+  width: 300px;
+  height: 23px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+.addUserName:focus {
+  border: 2px solid black;
+}
+.addUserEmail label {
+  font-size: 2.5vmin;
+  letter-spacing: 1px;
+  margin: 10px 25px;
+}
+.addUserEmail input {
+  width: 300px;
+  height: 23px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.addUserName {
+  margin: 20px 0px;
+}
+button {
+  width: 15%;
+  height: 30px;
+  margin: 30px;
+
+  font-size: 2.3vmin;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.invalid .userName {
+  border: 2px solid red;
+}
+.invalid .userName:focus{
+  border: 2px solid black;
+}
+.invalid1 .userEmail {
+  border: 2px solid red;
+}
